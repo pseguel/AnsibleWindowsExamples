@@ -5,6 +5,6 @@
   tasks:
   - name: Mostrar lista de Updates
     win_updates: 
-      category_names: {{ update_category }}
+      category_names: '{{ update_category }}'
       state: searched
 
