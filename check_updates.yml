@@ -1,0 +1,10 @@
+---
+- name: Ver lista de updates
+  hosts: windows
+
+  tasks:
+  - name: Mostrar lista de Updates
+    win_updates: 
+      category_names: SecurityUpdates
+      state: searched
+

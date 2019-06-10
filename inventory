@@ -1,0 +1,9 @@
+[windows]
+windows-6004.rhpds.opentlc.com
+
+[windows:vars]
+ansible_connection=winrm
+ansible_ssh_user=Administrator
+ansible_ssh_pass=Redhat1!
+ansible_ssh_port=5986
+ansible_winrm_server_cert_validation=ignore
