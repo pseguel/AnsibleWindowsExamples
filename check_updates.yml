@@ -1,6 +1,6 @@
 ---
 - name: Ver lista de updates
-  hosts: windows
+  hosts: windows-servers
 
   tasks:
   - name: Mostrar lista de Updates
