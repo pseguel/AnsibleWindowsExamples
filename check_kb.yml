@@ -7,5 +7,6 @@
     win_updates: 
       category_names: '{{ update_category }}'
       state: searched
-      whitelist: '{{ kb_id }}'
+      whitelist: 
+      - '{{ kb_id }}'
 
