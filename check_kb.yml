@@ -1,0 +1,11 @@
+---
+- name: Verificar KB instalado
+  hosts: windows-servers
+
+  tasks:
+  - name: Verificar KB especifico
+    win_updates: 
+      category_names: '{{ update_category }}'
+      kb: '{{ kb_id }}'
+      state: searched
+
