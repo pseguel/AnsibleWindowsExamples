@@ -6,6 +6,6 @@
   - name: Verificar KB especifico
     win_updates: 
       category_names: '{{ update_category }}'
-      kb: '{{ kb_id }}'
       state: searched
+      whitelist: '{{ kb_id }}'
 
