@@ -6,5 +6,5 @@ The current funcionality is:
 - Find all updates to be applied on inventory
 - Find update categories to be applied on inventory 
 - Find if specific KB numbers are installed on inventory
-
+- Apply specific KBs
  
