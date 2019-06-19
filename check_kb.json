@@ -1,0 +1,29 @@
+{
+  "spec": [
+    {
+      "question_description": "Please choose a Category",
+      "min": null,
+      "default": "SecurityUpdates",
+      "max": null,
+      "required": true,
+      "choices": "Application\nConnectors\nCriticalUpdates\nDefinitionUpdates\nDeveloperKits\nFeaturePacks\nGuidance\nSecurityUpdates\nServicePacks\nTools\nUpdateRollups\nUpdates",
+      "variable": "update_category",
+      "question_name": "Update Category",
+      "type": "multiselect"
+    },
+    {
+      "question_description": "Enter KB id to search",
+      "min": 9,
+      "default": "",
+      "max": 10,
+      "required": true,
+      "choices": "",
+      "new_question": true,
+      "variable": "kb_id",
+      "question_name": "Enter KB",
+      "type": "text"
+    }
+  ],
+  "name": "",
+  "description": ""
+}

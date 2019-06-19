@@ -1,0 +1,17 @@
+{
+  "description": "",
+  "name": "",
+  "spec": [
+    {
+      "required": true,
+      "min": null,
+      "default": "SecurityUpdates",
+      "max": null,
+      "question_description": "Please choose a Category",
+      "choices": "Application\nConnectors\nCriticalUpdates\nDefinitionUpdates\nDeveloperKits\nFeaturePacks\nGuidance\nSecurityUpdates\nServicePacks\nTools\nUpdateRollups\nUpdates",
+      "variable": "update_category",
+      "question_name": "Update Category",
+      "type": "multiselect"
+    }
+  ]
+}
