@@ -1,8 +1,9 @@
 ---
 - name: Instalar KBs especificos
-  win_updates:
-    category_name:
-    - category_names: '{{ update_category }}'
-    whitelist:
-    - '{{ kb_id }}'
-
+  hosts: windows-servers
+  tasks:
+    win_updates:
+      category_name:
+      - category_names: '{{ update_category }}'
+      whitelist:
+      - '{{ kb_id }}'
