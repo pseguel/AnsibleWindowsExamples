@@ -9,12 +9,11 @@
 
   - name: install openscap scanner
     yum:
-      name: "{{ item }}"
+      name: 
+        - openscap-utils
+        - openscap-scanner
+        - scap-security-guide
       state: latest
-    with_items:
-    - openscap-utils
-    - openscap-scanner
-    - scap-security-guide
 
   - block:
     - name: run openscap
