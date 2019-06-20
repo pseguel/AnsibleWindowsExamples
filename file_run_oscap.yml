@@ -12,6 +12,7 @@
       name: "{{ item }}"
       state: latest
     with_items:
+    - openscap-utils
     - openscap-scanner
     - scap-security-guide
 
